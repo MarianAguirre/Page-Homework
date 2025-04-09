@@ -1,10 +1,8 @@
-*{
-  margin: 0;
-  padding: 0;
-  color:  #ffffff;
+.page{
+  position: fixed;
+  background-color: #00000048;
+  width: 100%;
 }
-
-
 
 nav {
 
@@ -37,17 +35,17 @@ nav a{
   display: flex;
   align-items: center;
   text-decoration: none;
-  color:  #ffffff;
+  color:  #000000;
 }
 nav a:hover {
-  color: #11c5c5;
-  border-bottom: solid 2px #11c5c5;
+  color: #c57111;
+  border-bottom: solid 2px #c57111;
   height: 40px;
   cursor: pointer;
 }
 nav a.active {
-  color: #11c5c5;
-  border-bottom: solid 2px #11c5c5;
+  color: #c57111;
+  border-bottom: solid 2px #c57111;
   height: 40px;
 }
 nav .fa-icon{
@@ -71,7 +69,7 @@ nav .fa-icon{
     right: -100%;
     z-index: 10;
     width: 300px;
-    background-color: #00030a;
+
 
 
 
@@ -121,7 +119,7 @@ header {
   font-size: 20px;
   position: sticky;
   top: 0;
-  background-color: #00030a;
+
   z-index: 1000;
 }
 
@@ -129,7 +127,7 @@ nav{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #00030a;
+
 }
 
 .presentacion h1 {
