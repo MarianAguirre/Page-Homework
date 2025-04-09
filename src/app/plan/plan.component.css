@@ -130,3 +130,10 @@ footer {
   margin: 10px;
   justify-content: center;
 }
+
+@media (max-width:450px) {
+  .estudio{
+    width: 280px;
+    height: 600px;
+  }
+}
