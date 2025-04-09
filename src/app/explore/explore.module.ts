@@ -4,7 +4,6 @@ import { ExploreComponent } from './explore.component';
 import { ExploreRoutingModule } from './explore-routing.module';
 
 
-
 @NgModule({
   declarations: [],
   imports: [

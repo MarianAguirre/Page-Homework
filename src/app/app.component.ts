@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./navbar/navbar.component";
 
 @Component({
@@ -12,25 +12,4 @@ import { NavbarComponent } from "./navbar/navbar.component";
 export class AppComponent {
   title = 'Parral Page';
 
-  constructor(private readonly router: Router) {}
-
-  navigateToSeguridad() {
-    this.router.navigate(['/seguridad']);
-  }
-
-  navigateToRefrigeracion() {
-    this.router.navigate(['/refrigeracion']);
-  }
-
-  navigateToHardware() {
-    this.router.navigate(['/hardware']);
-  }
-
-  navigateToDesign() {
-    this.router.navigate(['/diseño']);
-  }
-
-  navigateToCostos() {
-    this.router.navigate(['/costos']);
-  }
 }
